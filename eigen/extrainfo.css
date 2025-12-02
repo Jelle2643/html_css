@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    background-image: url(../menu/uuiiaa.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    color: crimson;
+    margin: 0 20px 0 0;  
+    padding: 20px 0
+}
+
+
+
+
+
+
+
+
+
+
+.blur{
+
+     background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(4, 168, 160, 0.3); 
+    border-radius: 10px
+}
+
+.fill{
+  background-color: blueviolet;
+}

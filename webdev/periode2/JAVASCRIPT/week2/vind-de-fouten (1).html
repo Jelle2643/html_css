@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vind de fouten...</title>
+</head>
+
+<body>
+    <h1>Vind de fouten...</h1>
+    <p class="output">Hier komt de tekst...</p>
+    <script>
+        let userName = prompt("Wat is je naam?");
+        userName = userName.toLowerCase();   //
+        document.querySelector(".output").innerText = "Welkom " + userName + "!";
+
+        let firstNumber = prompt("Geef een getal:");
+        let secondNumber = prompt("Geef nog een getal:");
+        let result = firstNumber + secondNumber;
+        // document.writeln(result);
+
+        document.querySelector(".output").innerText += "\nHet resultaat is: " + result;
+    </script>
+</body>
+
+</html>

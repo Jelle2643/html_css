@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulier</title>
+    <style>
+        body {
+            background-color: #cccb89;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h1 {
+            margin: 10px 0;
+        }
+
+        p {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="formulier">
+        <h1>registratie</h1>
+        <label for="geslacht">geslacht:</label><br>
+        <input type="radio" name="man" id="geslacht">
+        <label for="man">man</label>
+        <input type="radio" name="vrouw" id="geslacht">
+        <label for="vrouw">vrouw</label>
+        <input type="radio" name="anders" id="geslacht">
+        <label for="anders">anders</label><br>
+
+        <label for="naam">naam: </label><br>
+        <input type="text" name="naam" id="naam"><br>
+        <label for="geboortedag">geboortedag:</label><br>
+        <input type="date" name="geboortedag" id="geboortedag"><br>
+        <label for="email">e-mailadres: </label><br>
+        <input type="email" name="email" id="email" required><br>
+        <label for="wachtwoord" >wachtwoord:</label><br>
+        <input type="password" name="wachtwoord" id="wachtwoord" required><br>
+        <input type="submit" value="verstuur">
+        <br>
+        <p>*deze velden zijn verplicht</p>
+    </form>
+</body>
+
+</html>

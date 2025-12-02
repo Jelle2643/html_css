@@ -1,0 +1,32 @@
+body {
+    /* background-color: rgb(27, 255, 2); */
+    background-image: url(milkCat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.893); 
+    border: 3px beige solid;
+    margin: 5px;
+    padding: 3px 15px 3px 5px;
+    background-color: rgb(188, 5, 243);
+    width: 150px;
+    display: flex;
+    text-align: center;
+    display: inline-block;
+}
+
+li:hover{
+    background-color: hotpink;
+}
+
+ul{
+    list-style-image: url(milkCat.png);
+    
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}

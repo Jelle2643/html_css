@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const leeftijd = 65;
+        const heeftKorting = true;
+
+        if (leeftijd <= 12) 
+        {
+            console.log("Kinderkaartje");
+        } 
+        else if (leeftijd > 12 && leeftijd < 65) {
+            if (heeftKorting === true)
+            {
+                console.log("Volwassenenkaartje met korting");
+            } 
+            else 
+            {
+                console.log("Volwassenenkaartje");
+            }
+
+        }
+         else 
+        {
+            console.log("Senioren krijgen altijd korting");
+        }
+
+    </script>
+</body>
+
+</html>

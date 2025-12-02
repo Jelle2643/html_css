@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabel opdracht</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        table {
+            border: 3px solid black;
+            border-collapse: collapse;
+            /* border-collapse voor rand weg */
+        }
+
+        td {
+            border: white solid 1px;
+            border-collapse: collapse;
+        }
+
+        .rood {
+            background-color: #fb6542;
+            padding: 10px;
+            color: white;
+        }
+
+        .blauw {
+            background-color: #375e97;
+            padding: 10px;
+            color: white;
+        }
+
+        .grijs {
+            background-color: grey;
+            padding: 10px;
+            color: black;
+        }
+
+        .geel {
+            background-color: #ffbb00;
+            padding: 10px;
+            color: white;
+        }
+
+        .groen {
+            background-color: #3f681c;
+            padding: 10px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td rowspan="2" class="blauw">left</td>
+            <td colspan="2" class="rood">top</td>
+        </tr>
+        <tr>
+            <td class="grijs">mid</td>
+            <td rowspan="2" class="geel">right</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="groen">bottem</td>
+        </tr>
+    </table>
+</body>
+
+</html>
