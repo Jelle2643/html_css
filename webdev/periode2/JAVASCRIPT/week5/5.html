@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function geefZin(getal1, getal2) {
+            const totaal = parseInt(getal1) + parseInt(getal2);
+            document.writeln("Het totaal van " + getal1 + " en " + getal2 + " is " + totaal);
+        }
+
+        const getal1 = prompt("getal 1 :");
+        const getal2 = prompt("getal 2 :");
+
+        // Roep de functie aan
+        geefZin(getal1, getal2);
+    </script>
+</body>
+
+</html>
